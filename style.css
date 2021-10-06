@@ -1,0 +1,118 @@
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.main-box {
+  width: 1008px;
+  height: 672px;
+  background-color: #202940;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin: 0px;
+  text-align: center;
+  padding-top: 77px;
+  font-size: 28px;
+}
+
+button {
+    width: 141px;
+    height: 48px;
+    margin-top: 40px;
+    background-color: #018934;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 0px;
+    cursor: pointer;
+  }
+
+ul {
+  list-style: none;
+  font-size: 13px;
+  opacity: 0.75;
+  padding: 7px;
+  margin-bottom: 47px;
+
+    
+}
+
+li {
+    line-height: 2;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.svg-icon {
+    width: 1.5em;
+    height: 1.5em;
+    padding-right: 5px;
+
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #018934;
+  }
+  
+  .svg-icon circle {
+    stroke: #018934;
+    stroke-width: 1;
+  }
+
+  .box {
+    background: #80808054;
+    display: flex;
+    justify-content: space-between;
+   
+    border-radius: 6px;
+      
+  }
+
+  .boxone {
+    margin-bottom: 10px;
+    
+  }
+  
+  .width-boxone {
+    width: 844px;
+    height: 95px;
+  }
+ .width-boxtwo {
+    width: 844px;
+    height: 127px;
+  }
+
+  .dot {
+    height: 15px;
+    width: 15px;
+    border: 2px solid #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: -1px;
+}
+.full-dot {
+  background-color: #018934
+
+}
+
+.columnone{
+  margin: 34px;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.box-border {
+  border: 2px solid green;
+}
